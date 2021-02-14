@@ -8,14 +8,14 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Daikin Livingroom"
+        "default": "Living Room"
       },
       "apiroute": {
         "title": "URI of the WIFI controller.",
         "description": "Should be in the format of: http://aaa.bbb.ccc.ddd",
         "type": "string",
         "required": true,
-        "default": "http://192.168.1.33",
+        "default": "http://10.0.1.117",
         "format": "uri"
       },
       "uuid": {
